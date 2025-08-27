@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/fullpage.js/dist/fullpage.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Portfolio1.css">
+        
+    </head>
+
+<body>
+
+<div id="blocker"></div>
+
+<div id="Home">
+<!--animation for title-->
+<div class="outer-headings">
+    <h1>Hello, I am</h1>
+    <div class="inner-headings">
+      <span>
+        a Social Media Manager<br />
+        a Web Research Analyst<br />
+        a GHL Expert<br />
+        RAFAEL BUTCHE
+      </span>
+    </div>
+</div>
+<!--end of animation for title-->
+
+<!--background image-->
+
+<!--counter-->
+<div class="hero">
+  <div class="progress-bar">
+    <p>LOADING</p>
+    <p>/<span id="counter">0</span></p>
+  </div>
+</div>
+
+<section class="section-background">
+    <img src="Aurora.jpg" id="bg">
+  <!--  <img src="road.png" id="road"> -->
+</section>  
+
+
+<!--header-->
+<header class="header">
+   <ul>
+     <li><a href="#Home">HOME</a>
+     <li><a href="#work-showcase">PORTFOLIO</a>    
+     <li><a href="#gallery-body">GALLERY</a>
+     <li><a href="#my-services">WHAT I DO</a> 
+     <li><a href="#about-me">ABOUT ME</a> 
+     <li><a href="#contact-me">CONTACT ME</a>   
+   </ul>
+</header>
+
+<nav>
+    <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
+<!--end of header-->
+
+
+<div class="section-space"></div>
+
+        <script type="text/javascript">
+            let bg = document.getElementById("bg");
+
+            window.addEventListener('scroll', function(){
+                var value = window.scrollY;
+                
+                bg.style.top = value * 0.8 + 'px';
+            })   
+        </script> 
+</div>     
+<!--end of background image-->        
+
+<!--work showcase--> 
+<!--
+<section class="work-showcase">
+    <section class="section-work" data-color="#0a2a43">
+   
+        <div class="img-box">
+            <img src="Hiring Posters 17.png" alt="" class="img-work">
+        </div>
+
+        <div class="content-work">
+            <h2 class="title-work">Doggo Treats</h2>
+            <p class="text-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, magnam. Tenetur perspiciatis sit laborum dicta libero consectetur. Magnam praesentium reprehenderit ullam, quod modi totam aliquid. Ab voluptate molestias numquam dignissimos..</p>
+            <button class="button-workshowcase" onclick="openDoggotreats()">View Website</button>
+        </div>
+
+    </section>
+
+    <section class="section-work-2" data-color="#038e72">
+ 
+        <div class="content-work">
+            <h2 class="title-work-2">Yoogaa</h2>
+            <p class="text-work-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime in atque earum officiis nisi itaque nobis, porro nesciunt harum, perferendis illo corrupti. Nam tenetur dicta quod ullam facilis labore! Minus!</p>
+            <button class="button-workshowcase-2" onclick="Yoogaa()">View Website</button>
+        </div>
+        
+        <div class="img-box">
+            <img src="Hiring Posters 18.png" alt="" class="img-work">
+        </div>
+    </section>  
+
+    <section class="section-work-3" data-color="#1f242d">
+         
+        <div class="img-box">
+            <img src="Switzerland Wallpaper.jpg" alt="" class="img-work">
+        </div>
+
+        <div class="content-work">
+            <h2 class="title-work">HealthyLiving</h2>
+            <p class="text-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, minima quisquam recusandae dolore unde blanditiis debitis, fuga delectus odit nesciunt enim omnis repudiandae suscipit praesentium alias eius quis, officia ipsum?</p>
+            <button class="button-workshowcase" onclick="HealthyLiving()">View Website</button>
+        </div>
+
+    </section>
+</section>  --> 
+
+
+<!--end of work showcase--> 
+
+<!--work showcase 2--> 
+<!--DoggoTreats 2--> 
+
+<div id="work-showcase">
+<div class="section"></div>
+<!--<h1 class="border-title-1">Sample Work</h1> -->
+<div class="section wrapper">
+  <div class="column left">
+    <h1>DoggoTreats</h1>
+    <span>about</span>
+    <p>DoggoTreats is a high-converting Sales Funnel built in GoHighLevel, designed specifically to showcase premium dog products in a visually engaging and persuasive way. What truly sets DoggoTreats apart is its powerful automation.</p>
+    <span>automation features</span>
+    <p> - Instant Purchase Confirmation: Customers receive an immediate confirmation email after purchasing.</p>
+    <p> - Automated Receipt Email: A professionally formatted receipt is sent directly to the customer’s inbox.</p>
+    <p> - Internal Team Notification: The DoggoTreats team is alerted in real-time when a purchase is made.</p>
+    <p> - Sales Pipeline Integration: Purchases are automatically logged in an internal pipeline, allowing the team to track order status and progress seamlessly.</p>
+    
+    <li><a href="https://123eqwad.xyz/doggo-treats-home" target="_blank">View Live Website</a>
+  </div>
+  <div class="column right">
+    <div class="boxes-container">
+      <img src="Work Showcase Images/DoggoTreats - 1.png" alt="" class="box"> 
+      <img src="Work Showcase Images/DoggoTreats - 2.png" alt="" class="box"> 
+      <img src="Work Showcase Images/DoggoTreats - 3.png" alt="" class="box"> 
+    </div>
+  </div>
+</div>
+
+<!--Yoogaa--> 
+<div class="section"></div>
+<div class="section wrapper">
+  <div class="column left">
+    <h1>Yoogaa</h1>
+    <span>about</span>
+    <p>Yoogaa is a serene and intuitive booking funnel built with GoHighLevel, designed to make scheduling effortless. Its calm, vivid design creates a relaxing experience from start to finish.</p>
+    <span>automation features</span>
+    <p> - Booking Confirmation & Management – clients get instant confirmation emails, with simple rebooking, cancellation, and follow-up engagement options after their appointment.</p>
+    <p> - Timely Appointment Reminders – automatic notifications sent 24 hours and 1 hour before the scheduled time.</p>
+    <p> - Internal Team Alerts – the team is notified instantly of new bookings and prompted on the appointment day to confirm if the client attended.</p>
+    <p> - AI Conversation Assistant – chatbot that answers questions in real-time and schedules bookings.</p>
+
+    <li><a href="https://123eqwad.xyz/yoogaa-home" target="_blank">View Live Website</a>
+  </div>
+
+  <div class="column right">
+    <div class="boxes-container">
+      <img src="Work Showcase Images/Yoogaa - 1.png" alt="" class="box">  
+      <img src="Work Showcase Images/Yoogaa - 2.png" alt="" class="box">  
+      <img src="Work Showcase Images/Yoogaa - 3.png" alt="" class="box">  
+    </div>
+  </div>
+</div>
+
+<!--HealthyLiving--> 
+<div class="section"></div>
+<div class="section wrapper">
+  <div class="column left">
+    <h1>Healthy Living</h1>
+    <span>about</span>
+    <p>“HealthyLiving is a Leads Funnel built in GoHighLevel, designed with a modern, fresh, and food-inspired layout through vibrant visuals of wholesome meals and clean sections.</p>
+    <span>automation features</span>
+    <p> - Automated Guide Delivery & Consultation Option – Once the form is filled, the free guide is instantly sent via email, with the added option to book a consultation for personalized support.</p>
+    <p> - Seamless Pipeline Management – All contact details are automatically captured and organized in the pipeline</p>
+    <p> - Email Performance Analytics – GoHighLevel provides real-time insights on your email campaigns</p>
+    <p> - Internal Team Notifications – Consultation requests and lead details are also forwarded to your internal team, ensuring no opportunity is missed.</p>
+    
+    <li><a href="https://123eqwad.xyz/healthyliving-home" target="_blank">View Live Website</a>
+  </div>
+  <div class="column right">
+    <div class="boxes-container">
+      <img src="Work Showcase Images/HealthyLiving - 1.png" alt="" class="box"> 
+      <img src="Work Showcase Images/HealthyLiving - 2.png" alt="" class="box"> 
+      <img src="Work Showcase Images/HealthyLiving - 3.png" alt="" class="box">
+    </div>
+  </div>
+</div>
+
+<div class="section-space"></div>
+</div>
+<!--end of work showcase--> 
+
+
+<section class="video"> 
+    <h2>Graphic Showcase</h2> 
+</section>
+
+<!-- gallery showcase  -->
+  
+<div class="gallery intro"></div>
+<div id="gallery-body">
+  <div class="gallery steps">
+    <div class="step-counter">
+        <div class="counter-title">
+            <h2>Gallery</h2>
+        </div>
+
+        <div class="count"> 
+          <div class="count-container">
+            <h1>01</h1>
+            <h1>02</h1>
+            <h1>03</h1>
+            <h1>04</h1>
+            <h1>05</h1>
+             
+          </div>
+        </div>  
+      </div>    
+          
+    <div class="cards">
+      <div class="card">
+        <div class="card-img">
+          <img src="Scroll-Image.png">
+        </div>
+        <div class="card-content">
+        </div>   
+      </div>  
+      
+      <!-- 2 -->
+      <div class="card">
+        <div class="card-img">
+          <img src="Gallery Pictures/Poster-1.png">
+        </div>
+        <div class="card-content">
+        </div>   
+      </div> 
+
+      <!-- 3 -->
+      <div class="card">
+        <div class="card-img">
+          <img src="Gallery Pictures/Poster-2.png">
+        </div>
+        <div class="card-content">
+        </div>   
+      </div> 
+
+      <!-- 4 -->
+      <div class="card">
+        <div class="card-img">
+          <img src="Gallery Pictures/Poster-3.png">
+        </div>
+        <div class="card-content">
+        </div>   
+      </div> 
+
+      <!-- 5 -->
+      <div class="card">
+        <div class="card-img">
+          <img src="Gallery Pictures/Poster-4.png">
+        </div>
+        <div class="card-content">
+        </div>   
+      </div> 
+
+      <div class="card">
+        <div class="card-img">
+          <img src="Gallery Pictures/Poster-5.png">
+          
+        </div>
+        <div class="card-content">
+        </div>   
+      </div> 
+
+      <div class="card empty"></div>
+      <div class="card empty"></div>
+  </div>
+</div>
+
+</div>
+
+<!-- end of gallery showcase  -->
+
+<div class="section-space"></div>
+ 
+<!--services-->  
+<div id="my-services">
+<section class="my-services">
+        <h1 class=border-title>What I Do</h1>
+        <div class="services-list">
+                <p>GHL Automation</p>
+                    <li>Funnel Building</li>
+                    <li>Automation</li>
+                    <li>Pipeline</li>
+                    <li>Conversation AI</li> 
+                <p>Social Media Manager</p> 
+                    <li>Lead Generation</li>  
+                <p>Graphic Designer</p>
+                    <li>Canva</li>
+                <p>Video Editor</p>
+                    <li>Adobe Premiere Pro</li>
+        </div>
+</section>  
+<!--end of services--> 
+
+</div>
+<!--about me-->  
+<div id="about-me">
+<section class="border">
+    <h1 class="border-title">About Me</h1>
+    <p class="border-text">Rafael Butche is a Web Research Analyst based in Baguio, Philippines. With attention to detail, curiosity, and problem-solving skills, he shifted to freelancing to explore his creative side.</p>
+    <p class="border-text">Inspired by minimalist design, he enjoys crafting clean, functional web layouts, experimenting with graphic editing, and bringing ideas to life. He also explored GoHighLevel automation, where his problem-solving mindset helped simplify workflows and improve user experiences.</p>
+    <p class="border-text">With those skills in mind, he created this website to showcase his work, problem-solving approach, and passion for design.</p>
+    <div class="border-button-group">
+            <button class="border-button-resume" onclick="Openresume()" data-reveal-right>Download Resume</button>
+        </div>
+</section>
+</div>
+<!--end of about me--> 
+
+
+<!--start of contact me--> 
+<div id="contact-me">
+<div class="contactme">
+		<main class="row">
+
+			<section class="col leftcontact">
+
+				<div class="contactTitle">
+					<h1>Get In Touch</h1>
+					<p></p>
+				</div>
+
+				<div class="contactInfo">
+					
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-phone"></i>
+						</div>
+						<div class="details">
+							<span>Phone</span>
+							<span>09985685280</span>
+						</div>
+					</div>
+
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-envelope"></i>
+						</div>
+						<div class="details">
+							<span>Email</span>
+							<span>rafaelbutche@gmail.com</span>
+						</div>
+					</div>
+
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-location-dot"></i>
+						</div>
+						<div class="details">
+							<span>Location</span>
+							<span>Baguio City, Philippines</span>
+						</div>
+					</div>
+				</div>
+        
+        <!--
+				<div class="socialMedia">
+					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+					<a href="#"><i class="fa-brands fa-twitter"></i></a>
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+				</div>
+        --> 
+
+			</section>
+
+
+			<section class="col right">
+
+				<form class="messageForm" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="3ee33145-79fd-4156-bc4b-3e01c51d1939">
+					
+					<div class="inputGroup halfWidth">
+						<input type="text" name="name" required="required">
+						<label>Your Name</label>
+					</div>
+
+					<div class="inputGroup halfWidth">
+						<input type="email" name="email" required="required">
+						<label>Email</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<input type="text" name="subject" required="required">
+						<label>Subject</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<textarea name="message" required="required"></textarea>
+						<label>Say Something</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<button>Send Message</button>
+					</div>
+
+				</form>
+
+			</section>
+		</main>
+	</div>
+</div>
+<!-- end of contact me  -->
+
+
+
+
+<!-- background color change  -->
+<script>
+    setTimeout(() => {
+      document.body.style.backgroundColor = "#000000"; // New background color
+    }, 3800); // 5000 milliseconds = 5 seconds
+  </script>
+
+<script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/CustomEase.min.js"></script>
+<script src="Portfolio.js"></script>  
+
+
+</body>
+</html>
