@@ -170,13 +170,21 @@ h1 {
   .outer-headings.h1 {
     font-size: 15px;
   }
-
   .inner-headings {
-    font-size: 30px;
+    font-size: 50px;
+    height: 55px;
   }
-
 }
 
+@media(max-width: 900px) {
+  
+  @keyframes animation {
+    0%, 20% { top: 0; }
+    25%, 45% { top: -55px; }
+    50%, 70% { top: -110px; }
+    75%, 100% { top: -165px; }
+  }
+}
 /*end of animation for title*/
 
 
